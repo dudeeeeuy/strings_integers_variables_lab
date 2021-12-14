@@ -10,4 +10,4 @@ class Test(TestCase):
         self.assertEqual(this_is_an_integer(), type(1))
 
     def test_int_variable_in_string(self):
-        self.assertEqual(int_variable_in_string(), "The value I assigned to my_int is: ?")
+        self.assertEqual(int_variable_in_string(), "The value I assigned to my_int is: 727")

@@ -4,8 +4,10 @@
 # 4. When both tests are passing, move to 'name_and_number.py' file
 
 def this_is_an_integer():
+    my_int=727
     return type(my_int)
 
 
 def int_variable_in_string():
+    my_int=727
     return f"The value I assigned to my_int is: {my_int}"

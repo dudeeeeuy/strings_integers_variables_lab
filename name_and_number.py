@@ -7,7 +7,7 @@
 def name_and_phone_number():
     your_name = input("What's your name? ")
     your_number = input("What's your phone number? ")
-    return f"Hello, ?, is ? your phone number?"
+    return f"Hello, your_name, is your_number your phone number?"
 
 
 def what_type_does_input_return():

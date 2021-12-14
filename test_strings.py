@@ -3,6 +3,7 @@
 
 from unittest import TestCase
 from strings import this_is_a_string, string_variable_in_a_string
+import pytest
 
 
 class Test(TestCase):
@@ -10,4 +11,4 @@ class Test(TestCase):
         self.assertEqual(this_is_a_string(), type("a string"))
 
     def test_string_variable_in_a_string(self):
-        self.assertEqual(string_variable_in_a_string(), "The value I assigned to my_string is: ?")
+        self.assertEqual(string_variable_in_a_string(), "The value I assigned to my_string is: 2")
