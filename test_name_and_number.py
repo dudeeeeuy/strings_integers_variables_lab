@@ -17,4 +17,4 @@ class Test(TestCase):
         self.assertEqual(what_type_does_input_return(), type ("hi"))
 
     def test_add_your_two_favorite_numbers(self):
-        self.assertEqual(add_your_two_favorite_numbers(), f"The sum of your favorite numbers is {'7'+'9'}")
+        self.assertEqual(add_your_two_favorite_numbers(), f"The sum of your favorite numbers is int({'7'+'9'})")
