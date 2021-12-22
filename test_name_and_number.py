@@ -11,10 +11,10 @@ from name_and_number import name_and_phone_number, what_type_does_input_return, 
 
 class Test(TestCase):
     def test_name_and_phone_number(self):
-        self.assertEqual(name_and_phone_number(), f"Hello, your_name, is your_number your phone number?")
+        self.assertEqual(name_and_phone_number(), f"Hello, Matthew, is 727272727 your phone number?")
 
     def test_what_type_does_input_return(self):
         self.assertEqual(what_type_does_input_return(), type ("hi"))
 
     def test_add_your_two_favorite_numbers(self):
-        self.assertEqual(add_your_two_favorite_numbers(), f"The sum of your favorite numbers is int({'7'+'9'})")
+        self.assertEqual(add_your_two_favorite_numbers(), f"The sum of your favorite numbers is {7+9}")
